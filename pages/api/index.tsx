@@ -1,4 +1,4 @@
-import Chatbot from "../src/components/Chatbot"; // Mengimpor komponen Chatbot
+import Chatbot from "../src/components"; // Mengimpor komponen Chatbot
 
 export default function Home() {
   return (
