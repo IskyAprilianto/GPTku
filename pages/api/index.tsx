@@ -1,4 +1,4 @@
-import Chatbot from "../src/components"; // Mengimpor komponen Chatbot
+import Chatbot from "@/app/components/Chatbot"; // Alias @ mengarah ke folder src
 
 export default function Home() {
   return (
