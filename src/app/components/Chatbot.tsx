@@ -1,5 +1,3 @@
-"use client"; // Menandai file ini sebagai Client Component
-
 import { useState } from "react";
 
 export default function Chatbot() {
@@ -10,6 +8,7 @@ export default function Chatbot() {
   const [error, setError] = useState<string | null>(null); // Menyimpan status error
   const [isLoading, setIsLoading] = useState(false); // Status loading untuk menunggu balasan dari API
 
+  // Fungsi untuk mengirim pesan
   const sendMessage = async () => {
     if (!input.trim()) return; // Abaikan input kosong
 
